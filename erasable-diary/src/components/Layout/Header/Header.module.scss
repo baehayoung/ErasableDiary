@@ -1,8 +1,10 @@
 header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
+
+    h2 {
+        margin: 0px;
+        padding: 10px 0;
+    }
+
     background-color: #bbc9e2;
 }
 
@@ -17,6 +19,7 @@ header {
             max-width: 300px;
             margin: 0 10px;
             border-bottom: 2px solid black;
+            margin-bottom: 5px;
 
             a {
                 width: 100%;
