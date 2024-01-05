@@ -1,12 +1,11 @@
 const path = require('path');
 
-const isProd = process.env.NODE_ENV === 'production';
-
 module.exports = {
     entry: './src/index.tsx',
-    basePath: isProd ? "/ErasableDiary" : "",
+    mode: 'development',
     output: {
-        path: path.resolve(__dirname, './dist')
+        path: path.join(__dirname, '/build'),
+        clean: true
     },
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".css", ".scss"]

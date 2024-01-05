@@ -5,7 +5,7 @@ import MainPage from './views/MainPage';
 import WritePage from './views/WritePage';
 import ReadPage from './views/ReadPage';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
