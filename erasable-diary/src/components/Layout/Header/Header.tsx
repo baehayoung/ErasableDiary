@@ -7,7 +7,7 @@ import css from './Header.module.scss';
 const Header = () => {
     return (
         <header>
-            <h2>Erasable Diary</h2>
+            <h2>The king's ears are donkey ears</h2>
 
             <nav className={css.menuBar}>
                 <ul>

@@ -1,6 +1,8 @@
 const MainPage = () => {
     return (
-        <div>Main</div>
+        <div>
+            <img src="king.png" alt="king" width={'50%'} />
+        </div>
     )
 }
 
