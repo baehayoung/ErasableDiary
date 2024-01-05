@@ -8,13 +8,12 @@ interface itemTypes {
 const ReadPage = () => {
     // window.sessionStorage.removeItem("diary");
     const sessionDiary = JSON.parse(window.sessionStorage.getItem("diary") || "[]");
-    console.log(sessionDiary)
 
     return (
         <div>
             {sessionDiary?.map((item: itemTypes, idx: number) => <div className={css.itemContainer}>
-                <div key={idx} className={css.item}>{item.contents}</div>
-                <div key={idx} className={css.item}>{item.time}</div>
+                <div key={idx} className={css.contents}>{item.contents}</div>
+                <div key={idx} className={css.date}>{item.time}</div>
             </div>)}
         </div>
     )

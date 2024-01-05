@@ -1,8 +1,18 @@
 .itemContainer {
     margin: auto;
+    margin-top: 5px;
     display: flex;
     padding: 10px 30px;
     max-width: 700px;
     border: 1px solid black;
     justify-content: space-between;
+
+    .contents {
+        text-align: left;
+    }
+
+    .date {
+        min-width: 200px;
+        text-align: right;
+    }
 }
