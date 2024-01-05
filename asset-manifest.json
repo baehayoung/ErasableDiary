@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ErasableDiary/static/css/main.00efccaf.css",
+    "main.js": "/ErasableDiary/static/js/main.0a34ad4c.js",
+    "index.html": "/ErasableDiary/index.html",
+    "main.00efccaf.css.map": "/ErasableDiary/static/css/main.00efccaf.css.map",
+    "main.0a34ad4c.js.map": "/ErasableDiary/static/js/main.0a34ad4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00efccaf.css",
+    "static/js/main.0a34ad4c.js"
+  ]
+}
